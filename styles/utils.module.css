@@ -1,0 +1,38 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.navbarList{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 3rem;
+  
+}
+
+.navbarListItem{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.navbarListItem:hover{
+  color: white;
+}
+
+.banner{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  gap: 5rem;
+}
+
+.profile{
+  border-radius: 500px;
+}
