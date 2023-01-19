@@ -1,15 +1,26 @@
-import utilStyles from '../styles/utils.module.css'
-export default function Media () {
-    return(
-        <div  className={utilStyles.navbar}>
-            <h1>Muhammed Gümüş</h1>
-            <ul className={utilStyles.navbarList}>
-                <li className={utilStyles.navbarListItem}>Home</li>
-                <li className={utilStyles.navbarListItem}>Frontend Skills</li>
-                <li className={utilStyles.navbarListItem}>Portfolio</li>
-                <li className={utilStyles.navbarListItem}>Contact</li>
-            </ul>
-        </div>
-    )
- 
+import utilStyles from "../styles/utils.module.css";
+import Image from "next/image";
+export default function Media() {
+  return (
+    <div className={utilStyles.navbar}>
+      <div style={{ display: "flex", flexDirection: "row", gap: "1rem" }}>
+        <h1>Muhammed Gümüş</h1>
+        
+      </div>
+      <div className={utilStyles.navbarList}>
+        <a href="/" className={utilStyles.navbarListItem}>
+          Home
+        </a>
+        <a href="FrontendSkills" className={utilStyles.navbarListItem}>
+          Tech Stacks
+        </a>
+        <a href="Portfolio" className={utilStyles.navbarListItem}>
+          Portfolio
+        </a>
+        <a href="Contact" className={utilStyles.navbarListItem}>
+          Contact
+        </a>
+      </div>
+    </div>
+  );
 }
