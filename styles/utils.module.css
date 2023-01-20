@@ -156,3 +156,179 @@
   padding-top: 8px;
   font-size: 12px;
 }
+
+.ContactContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  
+}
+
+.iphoneContent{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  top: 25px;
+  left: 16px;
+  text-align: center;
+  font-family: 'SF Pro Display', sans-serif;
+                                                
+}
+
+.iphoneContent p{
+  font-size: 7px;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+.iphoneContent h5{
+  font-size: 9px;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+.iphoneBtnGroup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top: 10px;
+}
+
+.iphoneBtn{
+  width: 100px;
+  height: 20px;
+  font-family: 'SF Pro Display', sans-serif;
+  border-radius: 30px;
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(0, 124, 237, 1);
+  transition: .3s;
+  cursor: pointer;
+  border: none;
+}
+
+.iphoneBtn:hover{
+  transform: scale(1.05);
+}
+
+.macContent{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  top: 65px;
+  left: 125px;
+  text-align: center;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+.macContent h3{
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+.macContent p{
+  font-size: 10px;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+.macBtnGroup{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 10px;
+}
+
+.macBtn{
+  width: 350px;
+  height: 30px;
+  border-radius: 30px;
+  color: white;
+  background-color: rgba(0, 124, 237, 1);
+  transition: .3s;
+  cursor: pointer;
+  border: none;
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 14px;
+}
+
+.macBtn:hover{
+  transform: scale(1.1);
+}
+
+.ipadContent{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  top: 35px;
+  left: 20px;
+  text-align: center;
+  font-family: 'SF Pro Display', sans-serif;
+                                                
+}
+
+.ipadContent p{
+  font-size: 9px;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+.ipadContent h3{
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+.ipadBtnGroup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 10px;
+}
+
+.ipadBtn{
+  width: 160px;
+  height: 25px;
+  font-family: 'SF Pro Display', sans-serif;
+  border-radius: 30px;
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(0, 124, 237, 1);
+  transition: .3s;
+  cursor: pointer;
+  border: none;
+}
+
+.ipadBtn:hover{
+  transform: scale(1.05);
+}
+
+.ContactImg1{
+  width: 130px;
+  height: 240px;
+}
+
+.ContactImg2{
+  width: 600px;
+  height: 400px;
+}
+
+.ContactImg3{
+  width: 200px;
+  height: 320px;
+}
+
+

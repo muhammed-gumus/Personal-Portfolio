@@ -2,10 +2,11 @@ import Head from "next/head";
 import Navbar from "../components/navbar";
 import utilStyles from "../styles/utils.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function Portfolio() {
+export default function Contact() {
   return (
-    <div className={utilStyles.Portfolio}>
+    <div className={utilStyles.Contact}>
       <Head>
         <title>Contact</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,92 +15,60 @@ export default function Portfolio() {
           href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         ></link>
+        <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet"></link>
       </Head>
       <Navbar />
       <div className={utilStyles.skillsTitle}>Contact</div>
-      <div className={utilStyles.PortfolioContent}>
-        <div className={utilStyles.Project}>
-          <Image
-            src="/images/silvermovie.png"
-            width={"360px"}
-            height={"180px"}
-            style={{ borderRadius: "25px" }}
-          />
-          <div>
-            <a href="https://github.com/muhammed-gumus/next.js-movie-app">
-              Silver Movie
-            </a>
-            <p>
-              Silver Movie is a movie website
-              <br /> created using Next.js and Chakra.ui.
-              <br />
-              The user can easily access all kinds
-              <br /> of data about any movie he wants
-              <br /> from here.
-            </p>
+      <did className={utilStyles.ContactContent}>
+        <div style={{position: "relative"}}>
+          <div className={utilStyles.iphoneContent}>
+            <Image src="/images/profile.jpg" width={"20px"} height={"20px"} style={{borderRadius: "30px"}}/>
+            <h5>Muhammed Gümüş</h5>
+            <p>Frontend Developer</p>
+            <div className={utilStyles.iphoneBtnGroup}>
+            <Link href={"mailto:mr.silver.mg@gmail.com"}><button className={utilStyles.iphoneBtn}>Mail</button></Link>
+            <Link href={"https://www.linkedin.com/in/muhammedgums"}><button className={utilStyles.iphoneBtn}>Linkedin</button></Link>
+            <Link href={"https://github.com/muhammed-gumus"}><button className={utilStyles.iphoneBtn}>Github</button></Link>
+            <Link href={"https://twitter.com/1silvermami1"}><button className={utilStyles.iphoneBtn}>Twitter</button></Link>
+            <Link href={"https://medium.com/@mr.silver.mg"}><button className={utilStyles.iphoneBtn}>Medium</button></Link>
+            </div>
           </div>
+          <img
+            src="/images/iphone.png"
+            className={utilStyles.ContactImg1}
+          ></img>
         </div>
-        <div className={utilStyles.Project}>
-          <Image
-            src="/images/silversea.png"
-            width={"360px"}
-            height={"180px"}
-            style={{ borderRadius: "25px" }}
-          />
-          <div>
-            <a href="https://github.com/muhammed-gumus/NFT-marketplace">
-              SilverSea
-            </a>
-            <p>
-              SilverSea is an NFT Marketplace
-              <br /> project coded using Next.js and
-              <br />
-              Chakra.ui. Users can showcase
-              <br /> their NFTs and exchange NFTs.
-              <br /> The project, which is currently
-              <br /> only in the design phase, will be
-              <br /> put into use soon.
-            </p>
+        <div style={{position: "relative"}}>
+        <div className={utilStyles.macContent}>
+            <Image src="/images/profile.jpg" width={"35px"} height={"35px"} style={{borderRadius: "30px"}}/>
+            <h3>Muhammed Gümüş</h3>
+            <p>Frontend Developer</p>
+            <div className={utilStyles.macBtnGroup}>
+            <Link href={"mailto:mr.silver.mg@gmail.com"}><button className={utilStyles.macBtn}>Mail</button></Link>
+            <Link href={"https://www.linkedin.com/in/muhammedgums"}><button className={utilStyles.macBtn}>Linkedin</button></Link>
+            <Link href={"https://github.com/muhammed-gumus"}><button className={utilStyles.macBtn}>Github</button></Link>
+            <Link href={"https://twitter.com/1silvermami1"}><button className={utilStyles.macBtn}>Twitter</button></Link>
+            <Link href={"https://medium.com/@mr.silver.mg"}><button className={utilStyles.macBtn}>Medium</button></Link>
+            </div>
           </div>
+        <img src="/images/mac.png" className={utilStyles.ContactImg2}></img>
         </div>
-        <div className={utilStyles.Project}>
-          <Image
-            src="/images/tfb.png"
-            width={"360px"}
-            height={"180px"}
-            style={{ borderRadius: "25px" }}
-          />
-          <div>
-            <a href="https://github.com/muhammed-gumus/TFB-website">
-              TrueFeedBack
-            </a>
-            <p>
-              A website I designed during my
-              <br /> internship at TrueFeedBack. The
-              <br /> design taken from Figma was
-              <br />
-              designed using only HTML and CSS.
-            </p>
+        <div style={{position: "relative"}}>
+        <div className={utilStyles.ipadContent}>
+            <Image src="/images/profile.jpg" width={"30px"} height={"30px"} style={{borderRadius: "30px"}}/>
+            <h3>Muhammed Gümüş</h3>
+            <p>Frontend Developer</p>
+            <div className={utilStyles.ipadBtnGroup}>
+            <Link href={"mailto:mr.silver.mg@gmail.com"}><button className={utilStyles.ipadBtn}>Mail</button></Link>
+            <Link href={"https://www.linkedin.com/in/muhammedgums"}><button className={utilStyles.ipadBtn}>Linkedin</button></Link>
+            <Link href={"https://github.com/muhammed-gumus"}><button className={utilStyles.ipadBtn}>Github</button></Link>
+            <Link href={"https://twitter.com/1silvermami1"}><button className={utilStyles.ipadBtn}>Twitter</button></Link>
+            <Link href={"https://medium.com/@mr.silver.mg"}><button className={utilStyles.ipadBtn}>Medium</button></Link>
+            </div>
           </div>
+        <img src="/images/ipad.png" className={utilStyles.ContactImg3}></img>
         </div>
-        <div className={utilStyles.Project}>
-          <Image
-            src="/images/todojs.png"
-            width={"360px"}
-            height={"180px"}
-            style={{ borderRadius: "25px" }}
-          />
-          <div>
-            <a href="https://github.com/muhammed-gumus/todo-react">ToDo List</a>
-            <p>
-              ToDo List is a simple to-do
-              <br /> list app that I coded to improve<br /> my React and Chakra
-              skills.<br /> You can categorize things to do<br /> as well as add and
-              subtract.
-            </p>
-          </div>
-        </div>
-      </div>
+      </did>
     </div>
   );
 }
