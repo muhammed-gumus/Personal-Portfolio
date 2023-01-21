@@ -36,7 +36,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  padding-top: 5rem;
   gap: 3rem;
 }
 
@@ -332,3 +332,380 @@
 }
 
 
+/* @media screen and (max-width: 320px) {
+  .navbar{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .navbar h1{
+    font-size: 8px;
+  }
+  .navbarList{
+    gap: 0.7rem;
+  }
+  
+  .navbarListItem{
+    font-size: 5px;
+    gap: 0.5rem;
+  }
+  
+  .navbarListItem:hover{
+    color: rgba(0, 124, 237, 1);
+    text-decoration: none;
+  }
+  
+  .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .BannerProfile{
+    border-radius: 500px;
+    width: 80px;
+  }
+  
+  .BannerRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .BannerTexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .BannerTitle{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .BannerName{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .BannerAbout{
+    font-size: 6px;
+    line-height: 15px;
+    opacity: 0.9;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  
+  .BannerBtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));;
+    color: white;
+    border: 2px solid;
+    border-color: rgba(0, 124, 237, 1);
+    font-size: 10px;
+    transition: .5s;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .navbar{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .navbar h1{
+    font-size: 14px;
+  }
+  .navbarList{
+    gap: .8rem;
+  }
+  
+  .navbarListItem{
+    font-size: 7px;
+  }
+
+  
+  .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .BannerProfile{
+    border-radius: 500px;
+    width: 90px;
+  }
+  
+  .BannerRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .BannerTexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .BannerTitle{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .BannerName{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .BannerAbout{
+    font-size: 6px;
+    line-height: 15px;
+    opacity: 0.9;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  
+  .BannerBtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));;
+    color: white;
+    border: 2px solid;
+    border-color: rgba(0, 124, 237, 1);
+    font-size: 10px;
+    transition: .5s;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .navbar h1{
+    font-size: 18px;
+  }
+  .navbarList{
+    gap: 1rem;
+  }
+  
+  .navbarListItem{
+    font-size: 9px;
+  }
+  
+  .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .BannerProfile{
+    border-radius: 500px;
+    width: 120px;
+  }
+  
+  .BannerRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .BannerTexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .BannerTitle{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .BannerName{
+    font-size: 26px;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .BannerAbout{
+    font-size: 8px;
+    line-height: 15px;
+    opacity: 0.9;
+    padding-left: 3rem;
+    padding-right: rem;
+  }
+  
+  
+  .BannerBtn{
+    width: 120px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));;
+    color: white;
+    border: 2px solid;
+    border-color: rgba(0, 124, 237, 1);
+    font-size: 12px;
+    transition: .5s;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+  }
+  .navbarList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2.5rem;
+  
+  }
+  
+  .navbarListItem{
+  
+    font-size: 16px;
+    cursor: pointer;
+    transition: .4s;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbarListItem:hover{
+    color: rgba(0, 124, 237, 1);
+    text-decoration: none;
+  }
+  
+  .banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    gap: 2rem;
+  }
+  
+  .BannerProfile{
+    border-radius: 500px;
+    width: 400px;
+  }
+  
+  .BannerRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+  .BannerTexts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0rem;
+  }
+  
+  .BannerTitle{
+    font-size: 24px;
+    padding: 0rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .BannerName{
+    font-size: 65px;
+    font-weight: 600;
+    padding: 0rem;
+  }
+  
+  .BannerAbout{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    opacity: 0.9;
+    padding: 0rem;
+  }
+  
+  
+  .BannerBtn{
+    width: 175px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));;
+    color: white;
+    border: 3px solid;
+    border-color: rgba(0, 124, 237, 1);
+    font-size: 16px;
+    transition: .5s;
+  }
+  
+  .BannerBtn:hover{
+    background-color: white;
+    color: rgba(0, 124, 237, 1);
+    transform: scale(1.1);
+    box-shadow: 9px 9px rgba(0, 124, 237, 1);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  
+} */
