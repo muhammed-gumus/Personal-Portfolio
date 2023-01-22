@@ -1,363 +1,32 @@
-.navbar{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
-  margin-top: 2.5rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-bottom: 2rem;
-}
-.navbarList{
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  gap: 2.5rem;
-
-}
-
-.navbarListItem{
-
-  font-size: 16px;
-  cursor: pointer;
-  transition: .4s;
-  color: white;
-  text-decoration: none;
-}
-
-.navbarListItem:hover{
-  color: rgba(0, 124, 237, 1);
-  text-decoration: none;
-}
-
-.banner{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 5rem;
-  gap: 3rem;
-}
-
-.BannerProfile{
-  border-radius: 500px;
-}
-
-.BannerRight{
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.BannerTexts{
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.BannerTitle{
-  font-size: 24px;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.BannerName{
-  font-size: 65px;
-  font-weight: 600;
-}
-
-.BannerAbout{
-  font-size: 16px;
-  line-height: 25px;
-  opacity: 0.9;
-}
-
-
-.BannerBtn{
-  width: 175px;
-  height: 50px;
-  border-radius: 30px;
-  background-color: transparent;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));;
-  color: white;
-  border: 3px solid;
-  border-color: rgba(0, 124, 237, 1);
-  font-size: 16px;
-  transition: .5s;
-}
-
-.BannerBtn:hover{
-  background-color: white;
-  color: rgba(0, 124, 237, 1);
-  transform: scale(1.1);
-  box-shadow: 9px 9px rgba(0, 124, 237, 1);
-  cursor: pointer;
-}
-
-.skillsPage{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  font-family: 'Orbitron', sans-serif;
-  letter-spacing: 1px;
-}
-
-.skills{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.skillsTitle{
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 6rem;
-  background-color: rgba(0, 124, 237, 1);
-  color:rgb(255, 255, 255);
-  font-weight: 700;
-  font-size: 40px;
-  padding-left: 3rem;
-}
-
-.skillsContent{
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
-  gap: 4rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.PortfolioContent{
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-top: 3rem;
-  margin-left: 3rem;
-  row-gap: 3rem;
-
-}
-
-.Project{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 1.5rem;
-}
-
-.Project a{
-  text-decoration: underline;
-  color: rgba(0, 124, 237, 1);
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.Project p{
-  padding-top: 8px;
-  font-size: 12px;
-}
-
-.ContactContent{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  
-}
-
-.iphoneContent{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  top: 25px;
-  left: 16px;
-  text-align: center;
-  font-family: 'SF Pro Display', sans-serif;
-                                                
-}
-
-.iphoneContent p{
-  font-size: 7px;
-  font-family: 'SF Pro Display', sans-serif;
-}
-
-.iphoneContent h5{
-  font-size: 9px;
-  font-family: 'SF Pro Display', sans-serif;
-}
-
-.iphoneBtnGroup{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  padding-top: 10px;
-}
-
-.iphoneBtn{
-  width: 100px;
-  height: 20px;
-  font-family: 'SF Pro Display', sans-serif;
-  border-radius: 30px;
-  font-size: 10px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-color: rgba(0, 124, 237, 1);
-  transition: .3s;
-  cursor: pointer;
-  border: none;
-}
-
-.iphoneBtn:hover{
-  transform: scale(1.05);
-}
-
-.macContent{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3px;
-  top: 65px;
-  left: 125px;
-  text-align: center;
-  font-family: 'SF Pro Display', sans-serif;
-}
-
-.macContent h3{
-  font-size: 12px;
-  letter-spacing: 3px;
-  font-family: 'SF Pro Display', sans-serif;
-}
-
-.macContent p{
-  font-size: 10px;
-  font-family: 'SF Pro Display', sans-serif;
-}
-
-.macBtnGroup{
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding-top: 10px;
-}
-
-.macBtn{
-  width: 350px;
-  height: 30px;
-  border-radius: 30px;
-  color: white;
-  background-color: rgba(0, 124, 237, 1);
-  transition: .3s;
-  cursor: pointer;
-  border: none;
-  font-family: 'SF Pro Display', sans-serif;
-  font-size: 14px;
-}
-
-.macBtn:hover{
-  transform: scale(1.1);
-}
-
-.ipadContent{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  top: 35px;
-  left: 20px;
-  text-align: center;
-  font-family: 'SF Pro Display', sans-serif;
-                                                
-}
-
-.ipadContent p{
-  font-size: 9px;
-  font-family: 'SF Pro Display', sans-serif;
-}
-
-.ipadContent h3{
-  font-size: 11px;
-  letter-spacing: 2px;
-  font-family: 'SF Pro Display', sans-serif;
-}
-
-.ipadBtnGroup{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  padding-top: 10px;
-}
-
-.ipadBtn{
-  width: 160px;
-  height: 25px;
-  font-family: 'SF Pro Display', sans-serif;
-  border-radius: 30px;
-  font-size: 10px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-color: rgba(0, 124, 237, 1);
-  transition: .3s;
-  cursor: pointer;
-  border: none;
-}
-
-.ipadBtn:hover{
-  transform: scale(1.05);
-}
-
-.ContactImg1{
-  width: 130px;
-  height: 240px;
-}
-
-.ContactImg2{
-  width: 600px;
-  height: 400px;
-}
-
-.ContactImg3{
-  width: 200px;
-  height: 320px;
-}
-
-
-/* @media screen and (max-width: 320px) {
-  .navbar{
+@media screen and (min-width: 320px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
   }
 
-  .navbar h1{
+  .navbar h1 {
     font-size: 8px;
   }
-  .navbarList{
+  .navbarList {
     gap: 0.7rem;
   }
-  
-  .navbarListItem{
+
+  .navbarListItem {
     font-size: 5px;
     gap: 0.5rem;
   }
-  
-  .navbarListItem:hover{
+
+  .navbarListItem:hover {
     color: rgba(0, 124, 237, 1);
     text-decoration: none;
   }
-  
-  .banner{
+
+  .banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -365,173 +34,83 @@
     padding-top: 1rem;
     gap: 1rem;
   }
-  
-  .BannerProfile{
+
+  .BannerProfile {
     border-radius: 500px;
     width: 80px;
   }
-  
-  .BannerRight{
+
+  .BannerRight {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
   }
-  
-  .BannerTexts{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
-  }
-  
-  .BannerTitle{
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.5);
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  
-  .BannerName{
-    font-size: 20px;
-    font-weight: 600;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  
-  .BannerAbout{
-    font-size: 6px;
-    line-height: 15px;
-    opacity: 0.9;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  
-  
-  .BannerBtn{
-    width: 100px;
-    height: 30px;
-    border-radius: 30px;
-    background-color: transparent;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));;
-    color: white;
-    border: 2px solid;
-    border-color: rgba(0, 124, 237, 1);
-    font-size: 10px;
-    transition: .5s;
-  }
 
-}
-
-@media screen and (max-width: 425px) {
-  .navbar{
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .navbar h1{
-    font-size: 14px;
-  }
-  .navbarList{
-    gap: .8rem;
-  }
-  
-  .navbarListItem{
-    font-size: 7px;
-  }
-
-  
-  .banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1rem;
-    gap: 1rem;
-  }
-  
-  .BannerProfile{
-    border-radius: 500px;
-    width: 90px;
-  }
-  
-  .BannerRight{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .BannerTexts{
+  .BannerTexts {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 1rem;
   }
-  
-  .BannerTitle{
+
+  .BannerTitle {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.5);
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  
-  .BannerName{
+
+  .BannerName {
     font-size: 20px;
     font-weight: 600;
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  
-  .BannerAbout{
+
+  .BannerAbout {
     font-size: 6px;
     line-height: 15px;
     opacity: 0.9;
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  
-  
-  .BannerBtn{
+
+  .BannerBtn {
     width: 100px;
     height: 30px;
     border-radius: 30px;
     background-color: transparent;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
     color: white;
     border: 2px solid;
     border-color: rgba(0, 124, 237, 1);
     font-size: 10px;
-    transition: .5s;
+    transition: 0.5s;
   }
-
 }
 
-
-@media screen and (max-width: 768px) {
-  .navbar{
+/* @media screen and (max-width: 768px) {
+  .navbar {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
   }
 
-  .navbar h1{
+  .navbar h1 {
     font-size: 18px;
   }
-  .navbarList{
+  .navbarList {
     gap: 1rem;
   }
-  
-  .navbarListItem{
+
+  .navbarListItem {
     font-size: 9px;
   }
-  
-  .banner{
+
+  .banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -539,173 +118,383 @@
     padding-top: 1rem;
     gap: 1rem;
   }
-  
-  .BannerProfile{
+
+  .BannerProfile {
     border-radius: 500px;
     width: 120px;
   }
-  
-  .BannerRight{
+
+  .BannerRight {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
   }
-  
-  .BannerTexts{
+
+  .BannerTexts {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 1rem;
   }
-  
-  .BannerTitle{
+
+  .BannerTitle {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  
-  .BannerName{
+
+  .BannerName {
     font-size: 26px;
     font-weight: 600;
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  
-  .BannerAbout{
+
+  .BannerAbout {
     font-size: 8px;
     line-height: 15px;
     opacity: 0.9;
     padding-left: 3rem;
     padding-right: rem;
   }
-  
-  
-  .BannerBtn{
+
+  .BannerBtn {
     width: 120px;
     height: 35px;
     border-radius: 30px;
     background-color: transparent;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
     color: white;
     border: 2px solid;
     border-color: rgba(0, 124, 237, 1);
     font-size: 12px;
-    transition: .5s;
+    transition: 0.5s;
   }
+} */
 
-}
-
-@media screen and (max-width: 1024px) {
-  .navbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
+@media screen and (min-width: 1024px) {
+  .navbar {
     margin-top: 2.5rem;
     margin-left: 3rem;
     margin-right: 3rem;
     margin-bottom: 2rem;
+    flex-direction: column;
   }
-  .navbarList{
+  .navbarList {
     display: flex;
     flex-direction: row;
     list-style: none;
     gap: 2.5rem;
-  
   }
-  
-  .navbarListItem{
-  
+
+  .navbarListItem {
     font-size: 16px;
     cursor: pointer;
-    transition: .4s;
+    transition: 0.4s;
     color: white;
     text-decoration: none;
   }
-  
-  .navbarListItem:hover{
+
+  .navbarListItem:hover {
     color: rgba(0, 124, 237, 1);
     text-decoration: none;
   }
-  
-  .banner{
+
+  .banner {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
-    padding-right: 5rem;
-    padding-left: 5rem;
-    gap: 2rem;
+    gap: 3rem;
   }
-  
-  .BannerProfile{
+
+  .BannerProfile {
     border-radius: 500px;
-    width: 400px;
   }
-  
-  .BannerRight{
+
+  .BannerRight {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 2rem;
   }
-  
-  .BannerTexts{
+
+  .BannerTexts {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 1rem;
-    padding: 0rem;
   }
-  
-  .BannerTitle{
+
+  .BannerTitle {
     font-size: 24px;
-    padding: 0rem;
     color: rgba(255, 255, 255, 0.5);
   }
-  
-  .BannerName{
+
+  .BannerName {
     font-size: 65px;
     font-weight: 600;
-    padding: 0rem;
   }
-  
-  .BannerAbout{
+
+  .BannerAbout {
     font-size: 16px;
     line-height: 25px;
-    text-align: left;
     opacity: 0.9;
-    padding: 0rem;
   }
-  
-  
-  .BannerBtn{
+
+  .BannerBtn {
     width: 175px;
     height: 50px;
     border-radius: 30px;
     background-color: transparent;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
     color: white;
     border: 3px solid;
     border-color: rgba(0, 124, 237, 1);
     font-size: 16px;
-    transition: .5s;
+    transition: 0.5s;
   }
-  
-  .BannerBtn:hover{
+
+  .BannerBtn:hover {
     background-color: white;
     color: rgba(0, 124, 237, 1);
     transform: scale(1.1);
     box-shadow: 9px 9px rgba(0, 124, 237, 1);
     cursor: pointer;
   }
-}
 
-@media screen and (max-width: 1440px) {
-  
-} */
+  .skillsPage {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skillsTitle {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+    background-color: rgba(0, 124, 237, 1);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 3rem;
+  }
+
+  .skillsContent {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .PortfolioContent {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    row-gap: 3rem;
+  }
+
+  .Project {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .Project a {
+    text-decoration: underline;
+    color: rgba(0, 124, 237, 1);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .Project p {
+    padding-top: 8px;
+    font-size: 12px;
+  }
+
+  .ContactContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .iphoneContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    top: 25px;
+    left: 16px;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  .iphoneContent p {
+    font-size: 7px;
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  .iphoneContent h5 {
+    font-size: 9px;
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  .iphoneBtnGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+  }
+
+  .iphoneBtn {
+    width: 100px;
+    height: 20px;
+    font-family: "SF Pro Display", sans-serif;
+    border-radius: 30px;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 124, 237, 1);
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+  }
+
+  .iphoneBtn:hover {
+    transform: scale(1.05);
+  }
+
+  .macContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    top: 65px;
+    left: 125px;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  .macContent h3 {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  .macContent p {
+    font-size: 10px;
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  .macBtnGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 10px;
+  }
+
+  .macBtn {
+    width: 350px;
+    height: 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(0, 124, 237, 1);
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 14px;
+  }
+
+  .macBtn:hover {
+    transform: scale(1.1);
+  }
+
+  .ipadContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    top: 35px;
+    left: 20px;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  .ipadContent p {
+    font-size: 9px;
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  .ipadContent h3 {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  .ipadBtnGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-top: 10px;
+  }
+
+  .ipadBtn {
+    width: 160px;
+    height: 25px;
+    font-family: "SF Pro Display", sans-serif;
+    border-radius: 30px;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 124, 237, 1);
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+  }
+
+  .ipadBtn:hover {
+    transform: scale(1.05);
+  }
+
+  .ContactImg1 {
+    width: 130px;
+    height: 240px;
+  }
+
+  .ContactImg2 {
+    width: 600px;
+    height: 400px;
+  }
+
+  .ContactImg3 {
+    width: 200px;
+    height: 320px;
+  }
+}

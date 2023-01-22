@@ -5,18 +5,20 @@ import Banner from "../components/banner";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
           rel="stylesheet"
-        ></link>
+          href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+        />
         <title>Muhammed Gümüş</title>
       </Head>
-      <Navbar />
-      <Banner />
-    </div>
+      <>
+        <Navbar />
+        <Banner />
+      </>
+    </>
   );
 }

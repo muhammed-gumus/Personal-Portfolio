@@ -93,9 +93,10 @@ export default function Portfolio() {
             <a href="https://github.com/muhammed-gumus/todo-react">ToDo List</a>
             <p>
               ToDo List is a simple to-do
-              <br /> list app that I coded to improve<br /> my React and Chakra
-              skills.<br /> You can categorize things to do<br /> as well as add and
-              subtract.
+              <br /> list app that I coded to improve
+              <br /> my React and Chakra skills.
+              <br /> You can categorize things to do
+              <br /> as well as add and subtract.
             </p>
           </div>
         </div>

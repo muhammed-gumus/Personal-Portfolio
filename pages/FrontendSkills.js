@@ -88,7 +88,13 @@ export default function Media() {
             height={"120px"}
           ></Image>
         </div>
-        <Link href='/Junior_Frontend_Developer_Muhammed_Gümüş_CV.pdf' target="_blank" download><button className={utilStyles.BannerBtn}>Review My Cv</button></Link>
+        <Link
+          href="/Junior_Frontend_Developer_Muhammed_Gümüş_CV.pdf"
+          target="_blank"
+          download
+        >
+          <button className={utilStyles.BannerBtn}>Review My Cv</button>
+        </Link>
       </div>
     </div>
   );
