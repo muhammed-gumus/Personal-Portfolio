@@ -21,8 +21,8 @@ export default function Portfolio() {
         <div className={utilStyles.Project}>
           <Image
             src="/images/silvermovie.png"
-            width={"340px"}
-            height={"180px"}
+            width={"340"}
+            height={"180"}
             style={{ borderRadius: "25px" }}
           />
           <div>
@@ -42,8 +42,8 @@ export default function Portfolio() {
         <div className={utilStyles.Project}>
           <Image
             src="/images/silversea.png"
-            width={"340px"}
-            height={"180px"}
+            width={"340"}
+            height={"180"}
             style={{ borderRadius: "25px" }}
           />
           <div>
@@ -65,8 +65,8 @@ export default function Portfolio() {
         <div className={utilStyles.Project}>
           <Image
             src="/images/tfb.png"
-            width={"340px"}
-            height={"180px"}
+            width={"340"}
+            height={"180"}
             style={{ borderRadius: "25px" }}
           />
           <div>
@@ -85,8 +85,8 @@ export default function Portfolio() {
         <div className={utilStyles.Project}>
           <Image
             src="/images/todojs.png"
-            width={"340px"}
-            height={"180px"}
+            width={"340"}
+            height={"180"}
             style={{ borderRadius: "25px" }}
           />
           <div>

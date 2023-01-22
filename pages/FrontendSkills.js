@@ -21,71 +21,71 @@ export default function Media() {
         <div className={utilStyles.skillsContent}>
           <Image
             src="/images/HTML.png"
-            width={"120px"}
-            height={"120px"}
+            width={"120"}
+            height={"120"}
           ></Image>
-          <Image src="/images/CSS.png" width={"120px"} height={"120px"}></Image>
+          <Image src="/images/CSS.png" width={"120"} height={"120"}></Image>
           <Image
             src="/images/JavaScript.png"
-            width={"120px"}
-            height={"120px"}
+            width={"120"}
+            height={"120"}
           ></Image>
           <Image
             src="/images/TypeScript.png"
-            width={"120px"}
-            height={"120px"}
+            width={"120"}
+            height={"120"}
           ></Image>
           <Image
             src="/images/React.png"
-            width={"120px"}
-            height={"120px"}
+            width={"120"}
+            height={"120"}
           ></Image>
           <Image
             src="/images/Next.png"
-            width={"120px"}
-            height={"120px"}
+            width={"120"}
+            height={"120"}
           ></Image>
           <Image
             src="/images/Ethers.jpg"
-            width={"120px"}
-            height={"120px"}
-            style={{ borderRadius: "90px" }}
+            width={"120"}
+            height={"120"}
+            style={{ borderRadius: "90" }}
           ></Image>
           <Image
             src="/images/Solidity.png"
-            width={"120px"}
-            height={"120px"}
+            width={"120"}
+            height={"120"}
           ></Image>
           <Image
             src="/images/C.png"
-            width={"120px"}
-            height={"120px"}
-            style={{ borderRadius: "90px" }}
+            width={"120"}
+            height={"120"}
+            style={{ borderRadius: "90" }}
           ></Image>
           <Image
             src="/images/Redux.png"
-            width={"120px"}
-            height={"120px"}
+            width={"120"}
+            height={"120"}
           ></Image>
           <Image
             src="/images/Chakra.png"
-            width={"120px"}
-            height={"120px"}
+            width={"120"}
+            height={"120"}
           ></Image>
           <Image
             src="/images/Tailwind.png"
-            width={"120px"}
-            height={"120px"}
+            width={"120"}
+            height={"120"}
           ></Image>
           <Image
             src="/images/Github.png"
-            width={"120px"}
-            height={"120px"}
+            width={"120"}
+            height={"120"}
           ></Image>
           <Image
             src="/images/Figma.png"
-            width={"120px"}
-            height={"120px"}
+            width={"120"}
+            height={"120"}
           ></Image>
         </div>
         <Link

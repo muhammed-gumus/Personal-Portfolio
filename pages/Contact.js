@@ -27,8 +27,8 @@ export default function Contact() {
           <div className={utilStyles.iphoneContent}>
             <Image
               src="/images/profile.jpg"
-              width={"20px"}
-              height={"20px"}
+              width={"20"}
+              height={"20"}
               style={{ borderRadius: "30px" }}
             />
             <h5>Muhammed Gümüş</h5>
@@ -60,8 +60,8 @@ export default function Contact() {
           <div className={utilStyles.macContent}>
             <Image
               src="/images/profile.jpg"
-              width={"35px"}
-              height={"35px"}
+              width={"35"}
+              height={"35"}
               style={{ borderRadius: "30px" }}
             />
             <h3>Muhammed Gümüş</h3>
@@ -90,8 +90,8 @@ export default function Contact() {
           <div className={utilStyles.ipadContent}>
             <Image
               src="/images/profile.jpg"
-              width={"30px"}
-              height={"30px"}
+              width={"30"}
+              height={"30"}
               style={{ borderRadius: "30px" }}
             />
             <h3>Muhammed Gümüş</h3>
