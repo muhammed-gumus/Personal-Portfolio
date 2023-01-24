@@ -103,182 +103,6 @@
     font-size: 10px;
     transition: 0.5s;
   }
-}
-
- @media screen and (min-width: 768px) {
-  .navbar {
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .navbar h1 {
-    font-size: 28px;
-  }
-  .navbarList {
-    gap: 10rem;
-  }
-
-  .navbarList div{
-    gap: 2rem;
-  }
-
-  .navbarListItem {
-    font-size: 12px;
-  }
-
-  .banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1rem;
-    gap: 1rem;
-  }
-
-  .BannerProfile {
-    border-radius: 500px;
-    width: 180px;
-  }
-
-  .BannerRight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .BannerTexts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .BannerTitle {
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0.5);
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .BannerName {
-    font-size: 28px;
-    font-weight: 600;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .BannerAbout {
-    font-size: 10px;
-    line-height: 15px;
-    opacity: 0.9;
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  .BannerBtn {
-    width: 120px;
-    height: 35px;
-    border-radius: 30px;
-    background-color: transparent;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
-    color: white;
-    border: 2px solid;
-    border-color: rgba(0, 124, 237, 1);
-    font-size: 12px;
-    transition: 0.5s;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .navbar {
-    margin-top: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 2rem;
-  }
-
-  .navbar h1{
-    font-size: 42px;
-  }
-  .navbarList {
-    gap: 12rem;
-  }
-
-  .navbarList div{
-    gap: 3rem;
-  }
-
-  .navbarListItem {
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.4s;
-    color: white;
-    text-decoration: none;
-  }
-
-  .navbarListItem:hover {
-    color: rgba(0, 124, 237, 1);
-    text-decoration: none;
-  }
-
-  .banner {
-    gap: 2rem;
-  }
-
-  .BannerProfile {
-    border-radius: 500px;
-  }
-
-  .BannerRight {
-    gap: 2rem;
-  }
-
-  .BannerTexts {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .BannerTitle {
-    font-size: 26px;
-    color: rgba(255, 255, 255, 0.5);
-  }
-
-  .BannerName {
-    font-size: 50px;
-    font-weight: 600;
-  }
-
-  .BannerAbout {
-    font-size: 16px;
-    line-height: 25px;
-    opacity: 0.9;
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .BannerBtn {
-    width: 175px;
-    height: 50px;
-    border-radius: 30px;
-    background-color: transparent;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
-    color: white;
-    border: 3px solid;
-    border-color: rgba(0, 124, 237, 1);
-    font-size: 16px;
-    transition: 0.5s;
-  }
-
-  .BannerBtn:hover {
-    background-color: white;
-    color: rgba(0, 124, 237, 1);
-    transform: scale(1.1);
-    box-shadow: 9px 9px rgba(0, 124, 237, 1);
-    cursor: pointer;
-  }
 
   .skillsPage {
     display: flex;
@@ -298,48 +122,65 @@
   .skillsTitle {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 5rem;
+    height: 2rem;
     background-color: rgba(0, 124, 237, 1);
     color: rgb(255, 255, 255);
     font-weight: 700;
-    font-size: 40px;
-    padding-left: 3rem;
+    font-size: 15px;
   }
 
   .skillsContent {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    gap: 4rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    row-gap: 1rem;
   }
+
+  .skillsContent img{
+    object-fit: contain;
+    width: 62px;
+    height: 62px;
+  }
+
 
   .PortfolioContent {
     display: grid;
-    grid-template-columns: auto auto;
-    margin-top: 2.5rem;
-    margin-left: 3rem;
-    row-gap: 3rem;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    margin-top: 1rem;
+    gap: 2rem;
   }
 
   .Project {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    gap: 1.5rem;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem;
   }
+
+
 
   .Project a {
     text-decoration: underline;
     color: rgba(0, 124, 237, 1);
-    font-size: 20px;
+    font-size: 8px;
     font-weight: 600;
   }
 
   .Project p {
-    padding-top: 8px;
-    font-size: 12px;
+    font-size: 6px;
+  }
+
+  .Project img{
+    width: 150px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 15px;
   }
 
   .ContactContent {
@@ -511,5 +352,302 @@
   .ContactImg3 {
     width: 200px;
     height: 320px;
+  }
+}
+
+ @media screen and (min-width: 768px) {
+  .navbar {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .navbar h1 {
+    font-size: 28px;
+  }
+  .navbarList {
+    gap: 10rem;
+  }
+
+  .navbarList div{
+    gap: 2rem;
+  }
+
+  .navbarListItem {
+    font-size: 12px;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 1rem;
+  }
+
+  .BannerProfile {
+    border-radius: 500px;
+    width: 180px;
+  }
+
+  .BannerRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .BannerTexts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .BannerTitle {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .BannerName {
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .BannerAbout {
+    font-size: 10px;
+    line-height: 15px;
+    opacity: 0.9;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .BannerBtn {
+    width: 120px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    color: white;
+    border: 2px solid;
+    border-color: rgba(0, 124, 237, 1);
+    font-size: 12px;
+    transition: 0.5s;
+  }
+
+  .skillsTitle {
+    height: 3rem;
+    font-size: 20px;
+  }
+
+  .skillsContent {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    row-gap: 1rem;
+  }
+
+  .skillsContent img{
+    object-fit: contain;
+    width: 96px;
+    height: 96px;
+  }
+
+  .PortfolioContent {
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    margin-top: 1rem;
+    gap: .5rem;
+  }
+
+  .Project {
+    align-items: flex-start;
+    gap: .5rem;
+  }
+
+
+
+  .Project a {
+    font-size: 10px;
+  }
+
+  .Project p {
+    font-size: 6px;
+  }
+
+  .Project img{
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .navbar h1{
+    font-size: 42px;
+  }
+  .navbarList {
+    gap: 12rem;
+  }
+
+  .navbarList div{
+    gap: 3rem;
+  }
+
+  .navbarListItem {
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbarListItem:hover {
+    color: rgba(0, 124, 237, 1);
+    text-decoration: none;
+  }
+
+  .banner {
+    gap: 2rem;
+  }
+
+  .BannerProfile {
+    border-radius: 500px;
+  }
+
+  .BannerRight {
+    gap: 2rem;
+  }
+
+  .BannerTexts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .BannerTitle {
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .BannerName {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .BannerAbout {
+    font-size: 16px;
+    line-height: 25px;
+    opacity: 0.9;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .BannerBtn {
+    width: 175px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    color: white;
+    border: 3px solid;
+    border-color: rgba(0, 124, 237, 1);
+    font-size: 16px;
+    transition: 0.5s;
+  }
+
+  .BannerBtn:hover {
+    background-color: white;
+    color: rgba(0, 124, 237, 1);
+    transform: scale(1.1);
+    box-shadow: 9px 9px rgba(0, 124, 237, 1);
+    cursor: pointer;
+  }
+
+  .skillsTitle {
+    height: 5rem;
+    font-size: 32px;
+  }
+
+  .skillsContent {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .skillsContent img{
+    object-fit: contain;
+    width: 128px;
+    height: 128px;
+  }
+
+  .PortfolioContent {
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+
+  .Project {
+    align-items: flex-start;
+    gap: .5rem;
+  }
+
+  .Project a {
+    font-size: 16px;
+  }
+
+  .Project p {
+    font-size: 10px;
+  }
+
+  .Project img{
+    width: 250px;
+    height: 120px;
+  }
+  
+}
+
+@media screen and (min-width: 1440px) {
+  .PortfolioContent {
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    margin-top: 1rem;
+    gap: 1.5rem;
+  }
+
+  .Project {
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .Project a {
+    font-size: 22px;
+  }
+
+  .Project p {
+    font-size: 12px;
+  }
+
+  .Project img{
+    width: 340px;
+    height: 180px;
   }
 }

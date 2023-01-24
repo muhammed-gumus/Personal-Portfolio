@@ -23,7 +23,6 @@ export default function Portfolio() {
             src="/images/silvermovie.png"
             width={"340"}
             height={"180"}
-            style={{ borderRadius: "25px" }}
           />
           <div>
             <a href="https://github.com/muhammed-gumus/next.js-movie-app">
@@ -44,7 +43,6 @@ export default function Portfolio() {
             src="/images/silversea.png"
             width={"340"}
             height={"180"}
-            style={{ borderRadius: "25px" }}
           />
           <div>
             <a href="https://github.com/muhammed-gumus/NFT-marketplace">
@@ -67,7 +65,6 @@ export default function Portfolio() {
             src="/images/tfb.png"
             width={"340"}
             height={"180"}
-            style={{ borderRadius: "25px" }}
           />
           <div>
             <a href="https://github.com/muhammed-gumus/TFB-website">
@@ -87,7 +84,6 @@ export default function Portfolio() {
             src="/images/todojs.png"
             width={"340"}
             height={"180"}
-            style={{ borderRadius: "25px" }}
           />
           <div>
             <a href="https://github.com/muhammed-gumus/todo-react">ToDo List</a>
