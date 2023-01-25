@@ -23,7 +23,7 @@ export default function Contact() {
       <Navbar />
       <div className={utilStyles.skillsTitle}>Contact</div>
       <did className={utilStyles.ContactContent}>
-        <div style={{ position: "relative" }}>
+        <div className={utilStyles.iphoneContent1} style={{ position: "relative" }}>
           <div className={utilStyles.iphoneContent}>
             <Image
               src="/images/profile.jpg"
@@ -71,16 +71,13 @@ export default function Contact() {
                 <button className={utilStyles.macBtn}>Mail</button>
               </Link>
               <Link href={"https://www.linkedin.com/in/muhammedgums"}>
-                <button className={utilStyles.macBtn}>Linkedin</button>
+                <button className={utilStyles.macBtn}>LinkedIn</button>
               </Link>
               <Link href={"https://github.com/muhammed-gumus"}>
                 <button className={utilStyles.macBtn}>Github</button>
               </Link>
               <Link href={"https://twitter.com/1silvermami1"}>
                 <button className={utilStyles.macBtn}>Twitter</button>
-              </Link>
-              <Link href={"https://medium.com/@mr.silver.mg"}>
-                <button className={utilStyles.macBtn}>Medium</button>
               </Link>
             </div>
           </div>
