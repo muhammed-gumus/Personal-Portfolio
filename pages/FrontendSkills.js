@@ -89,7 +89,7 @@ export default function Media() {
           ></Image>
         </div>
         <Link
-          href="/JuniorFrontendDeveloperMuhammedGümüşCV.pdf"
+          href="/JuniorFrontendDeveloperMuhammedGumusCV.pdf"
           target="_blank"
           download
         >
