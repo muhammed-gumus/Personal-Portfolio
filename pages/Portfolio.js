@@ -19,11 +19,7 @@ export default function Portfolio() {
       <div className={utilStyles.skillsTitle}>Portfolio</div>
       <div className={utilStyles.PortfolioContent}>
         <div className={utilStyles.Project}>
-          <Image
-            src="/images/silvermovie.png"
-            width={"340"}
-            height={"180"}
-          />
+          <Image src="/images/silvermovie.png" width={"340"} height={"180"} />
           <div>
             <a href="https://github.com/muhammed-gumus/next.js-movie-app">
               Silver Movie
@@ -39,11 +35,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className={utilStyles.Project}>
-          <Image
-            src="/images/silversea.png"
-            width={"340"}
-            height={"180"}
-          />
+          <Image src="/images/silversea.png" width={"340"} height={"180"} />
           <div>
             <a href="https://github.com/muhammed-gumus/NFT-marketplace">
               SilverSea
@@ -61,11 +53,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className={utilStyles.Project}>
-          <Image
-            src="/images/tfb.png"
-            width={"340"}
-            height={"180"}
-          />
+          <Image src="/images/tfb.png" width={"340"} height={"180"} />
           <div>
             <a href="https://github.com/muhammed-gumus/TFB-website">
               TrueFeedBack
@@ -80,11 +68,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className={utilStyles.Project}>
-          <Image
-            src="/images/todojs.png"
-            width={"340"}
-            height={"180"}
-          />
+          <Image src="/images/todojs.png" width={"340"} height={"180"} />
           <div>
             <a href="https://github.com/muhammed-gumus/todo-react">ToDo List</a>
             <p>
@@ -93,6 +77,17 @@ export default function Portfolio() {
               <br /> my React and Chakra skills.
               <br /> You can categorize things to do
               <br /> as well as add and subtract.
+            </p>
+          </div>
+        </div>
+        <div className={utilStyles.Project}>
+          <Image src="/images/host.jpeg" width={"340"} height={"180"} />
+          <div>
+            <a href="https://silver-host.vercel.app/">Silver Host</a>
+            <p>
+              I designed the layout using<br /> Figma and then coded a <br />responsive
+              website using HTML<br /> and CSS. To improve the SEO of<br /> my website, I
+              conducted keyword<br /> research and optimized meta<br /> descriptions.
             </p>
           </div>
         </div>
