@@ -17,6 +17,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"></link>
         <title>Muhammed Gümüş</title>
+        <link rel="shortcut icon" href="/images/profile.jpg"></link>
       </Head>
       <>
         <Navbar />

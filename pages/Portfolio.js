@@ -87,7 +87,7 @@ export default function Portfolio() {
             <p>
               I designed the layout using<br /> Figma and then coded a <br />responsive
               website using HTML<br /> and CSS. To improve the SEO of<br /> my website, I
-              conducted keyword<br /> research and optimized meta<br /> descriptions.
+              conducted keyword<br /> research and optimized meta<br /> descriptions.  
             </p>
           </div>
         </div>
