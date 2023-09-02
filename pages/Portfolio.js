@@ -19,6 +19,42 @@ export default function Portfolio() {
       <div className={utilStyles.skillsTitle}>Portfolio</div>
       <div className={utilStyles.PortfolioContent}>
         <div className={utilStyles.Project}>
+          <Image src="/images/listedfy.png" width={"340"} height={"180"} />
+          <div>
+            <a href="https://github.com/muhammed-gumus/next.js-movie-app">
+              Listedfy App
+            </a>
+            <p>
+              Utilized Airtable as a database
+              <br /> solution to facilitate user
+              <br /> interaction with songs and playlist <br /> creation,
+              contributing to a seamless <br /> user experience. Completed the
+              <br /> project by incorporating the Spotify
+              <br /> API into my design and developing
+              <br /> the entire platform using Next.js
+              <br /> and TailwindCSS.
+            </p>
+          </div>
+        </div>
+        <div className={utilStyles.Project}>
+          <Image src="/images/kampus.png" width={"340"} height={"180"} />
+          <div>
+            <a href="https://github.com/muhammed-gumus/next.js-movie-app">
+              kamp.us
+            </a>
+            <p>
+              Kamp.us is an open source
+              <br /> project developed on a discord
+              <br /> server called kamp.us. In this
+              <br /> project, I coded the components
+              <br /> to be used in the interface with
+              <br /> typescript and shadcn ui and
+              <br /> wrote stories to list these
+              <br /> components on the storybook.
+            </p>
+          </div>
+        </div>
+        <div className={utilStyles.Project}>
           <Image src="/images/silvermovie.png" width={"340"} height={"180"} />
           <div>
             <a href="https://github.com/muhammed-gumus/next.js-movie-app">
@@ -53,6 +89,23 @@ export default function Portfolio() {
           </div>
         </div>
         <div className={utilStyles.Project}>
+          <Image src="/images/sencha.png" width={"340"} height={"180"} />
+          <div>
+            <a href="https://github.com/muhammed-gumus/next.js-movie-app">
+              SenchaBot
+            </a>
+            <p>
+              SenchaBot is an open source <br />
+              discord and twitch bot developed
+              <br /> on the discord server kamp.us. In
+              <br /> this project, I created components
+              <br />
+              to be displayed in the interface using
+              <br /> typescript and material ui.
+            </p>
+          </div>
+        </div>
+        <div className={utilStyles.Project}>
           <Image src="/images/tfb.png" width={"340"} height={"180"} />
           <div>
             <a href="https://github.com/muhammed-gumus/TFB-website">
@@ -68,15 +121,19 @@ export default function Portfolio() {
           </div>
         </div>
         <div className={utilStyles.Project}>
-          <Image src="/images/todojs.png" width={"340"} height={"180"} />
+          <Image src="/images/mergebot.png" width={"340"} height={"180"} />
           <div>
-            <a href="https://github.com/muhammed-gumus/todo-react">ToDo List</a>
+            <a href="https://github.com/muhammed-gumus/todo-react">MergeBot</a>
             <p>
-              ToDo List is a simple to-do
-              <br /> list app that I coded to improve
-              <br /> my React and Chakra skills.
-              <br /> You can categorize things to do
-              <br /> as well as add and subtract.
+              MergeBot is a GitHub bot.
+              <br /> Using Axios, I brought the
+              <br /> data I pulled from GitHub API
+              <br /> to the user with Node.js. Pull
+              <br /> requests that are closed in
+              <br /> the desired repository of the
+              <br /> desired user are received and
+              <br /> written to a file with md extension
+              <br /> with the specified syntax.
             </p>
           </div>
         </div>
@@ -85,9 +142,13 @@ export default function Portfolio() {
           <div>
             <a href="https://silver-host.vercel.app/">Silver Host</a>
             <p>
-              I designed the layout using<br /> Figma and then coded a <br />responsive
-              website using HTML<br /> and CSS. To improve the SEO of<br /> my website, I
-              conducted keyword<br /> research and optimized meta<br /> descriptions.  
+              I designed the layout using
+              <br /> Figma and then coded a <br />
+              responsive website using HTML
+              <br /> and CSS. To improve the SEO of
+              <br /> my website, I conducted keyword
+              <br /> research and optimized meta
+              <br /> descriptions.
             </p>
           </div>
         </div>
